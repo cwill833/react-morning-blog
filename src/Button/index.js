@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 function Button({ handleClick, handleDeletePost, index, type }) {
 	if (handleClick) {
@@ -12,6 +12,6 @@ function Button({ handleClick, handleDeletePost, index, type }) {
 export default Button
 
 
-Button.propTypes = {
+// Button.propTypes = {
     
-}
+// }
